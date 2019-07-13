@@ -1,0 +1,18 @@
+{
+  "url": "http://demo.guru99.com/V4/index.php",
+  "email": "perez@hotmail.com",
+  "id": "mngr209209",
+  "pass": "nabArad",
+  "name": "Homer",
+  "gender": "m",
+  "birth": "1994-12-28",
+  "address": "Av siempre viva 123",
+  "city": "Springfield",
+  "state": "EEUU",
+  "pin": "578698",
+  "mobileNumber": "3625489635125",
+  "emailCustomer": "homer@hotmail.com",
+  "passCustomer": "rosquillas",
+  "accountType": "Current",
+  "initialDeposit": "10000"
+}

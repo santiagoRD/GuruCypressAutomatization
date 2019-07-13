@@ -1,0 +1,19 @@
+{
+  "name": "riossantiago_riosmateo_automatizacion_ejercicio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cypress:open": "cypress open"
+  },
+  "author": "Rios Santiago and Rios Mateo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.3.2",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
