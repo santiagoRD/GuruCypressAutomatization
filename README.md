@@ -4,6 +4,6 @@ Descargar repositorio, abrir una terminal en la carpeta del repositorio y ejecut
 
 las dependencias que se instalaron son :
 
-cypress
-Jest
+cypress,
+Jest,
 Faker // para generar emails aleatorios
