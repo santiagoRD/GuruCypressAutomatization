@@ -94,7 +94,7 @@ describe("Gettin credentials and login in the app", () => {
       });
   };
 
-  it("Visit here link to get de credentials", function() {
+  it("Visitar link Here para obtener los credenciales necesarios para ingresar a la aplicacion", function() {
     let accountCustomer = faker.internet.email(); //Random Email Generator
 
     cy.visit(this.dataTest.url) // Visitar pagina
