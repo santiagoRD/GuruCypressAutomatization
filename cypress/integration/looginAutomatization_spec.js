@@ -94,13 +94,13 @@ describe("Gettin credentials and login in the app", () => {
       });
   };
 
-  it("Visit here link to get de credentials", function() {
+  it("Visitar link Here para obtener los credenciales necesarios para ingresar a la aplicacion", function() {
     let accountCustomer = faker.internet.email(); //Random Email Generator
 
     cy.visit(this.dataTest.url) // Visitar pagina
       .get("ol > :nth-child(1) > a") // enalce Here
       .click(); // click
-    cy.get(":nth-child(5) > :nth-child(2) > input").should("be.empty"); 
+    cy.get(":nth-child(5) > :nth-child(2) > input").should("be.empty");
     cy.get(":nth-child(5) > :nth-child(2) > input") // input para ingresar email
       .type(this.dataTest.email)
       .should("have.value", this.dataTest.email);
@@ -109,7 +109,7 @@ describe("Gettin credentials and login in the app", () => {
     cy.get("body > table > tbody > tr:nth-child(4) > td:nth-child(2)") // obtener el user id
       .should("to.contain", this.dataTest.id)
       .then(() => {
-        createNewCostumer(this.dataTest, accountCustomer); //Enviar ID 
+        createNewCostumer(this.dataTest, accountCustomer); //Enviar ID
       });
   });
 });
