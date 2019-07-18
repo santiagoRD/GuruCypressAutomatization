@@ -100,7 +100,7 @@ describe("Gettin credentials and login in the app", () => {
     cy.visit(this.dataTest.url) // Visitar pagina
       .get("ol > :nth-child(1) > a") // enalce Here
       .click(); // click
-    cy.get(":nth-child(5) > :nth-child(2) > input").should("be.empty"); 
+    cy.get(":nth-child(5) > :nth-child(2) > input").should("be.empty");
     cy.get(":nth-child(5) > :nth-child(2) > input") // input para ingresar email
       .type(this.dataTest.email)
       .should("have.value", this.dataTest.email);
@@ -109,7 +109,7 @@ describe("Gettin credentials and login in the app", () => {
     cy.get("body > table > tbody > tr:nth-child(4) > td:nth-child(2)") // obtener el user id
       .should("to.contain", this.dataTest.id)
       .then(() => {
-        createNewCostumer(this.dataTest, accountCustomer); //Enviar ID 
+        createNewCostumer(this.dataTest, accountCustomer); //Enviar ID
       });
   });
 });
