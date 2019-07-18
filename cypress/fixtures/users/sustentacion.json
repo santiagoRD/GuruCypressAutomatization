@@ -1,0 +1,8 @@
+{
+  "url": "http://computer-database.gatling.io/computers",
+  "urlCrearRegistro": "http://computer-database.gatling.io/computers/new",
+  "nombre": "Lenovo",
+  "fechaInicial": "2010-07-16",
+  "fechaFinal": "2020-02-10",
+  "compania": "Lenovo Group"
+}
